@@ -1,0 +1,1783 @@
+1671442817993	geckodriver	INFO	Listening on 127.0.0.1:62124
+1671442821044	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62125" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\brame\\AppData\\Local\\Temp\\rust_mozprofileNdR5ww"
+1671442821978	Marionette	INFO	Marionette enabled
+1671442821986	Marionette	INFO	Listening on port 62138
+Read port: 62138
+WebDriver BiDi listening on ws://127.0.0.1:62125
+1671442822218	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\brame\\AppData\\Local\\Temp\\rust_mozprofileNdR5ww\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:62125/devtools/browser/e4613ce2-9f05-44fc-82ea-393fa309fc40
+JavaScript error: https://media.ethicalads.io/media/client/v1.4.0/ethicalads.min.js, line 1: Error: No ad placements found.
+JavaScript error: resource:///actors/FormValidationChild.sys.mjs, line 178: TypeError: this._element is null
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.python.org."
+1671442826576	Marionette	INFO	Stopped listening on port 62138
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+sendPing@resource://gre/modules/EventPing.jsm:51:30
+_submitPing@resource://gre/modules/EventPing.jsm:229:12
+shutdown@resource://gre/modules/EventPing.jsm:112:10
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:940:31
+shutdown/<@resource://gre/modules/TelemetryControllerParent.jsm:1010:24
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:982:34
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:1014:36
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:1687:7
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:369:30
+_getState@resource://gre/modules/TelemetryControllerParent.jsm:1058:38
+setupTelemetry/<@resource://gre/modules/TelemetryControllerParent.jsm:917:18
+safeGetState@resource://gre/modules/AsyncShutdown.jsm:242:17
+Barrier/addBlocker/promise<@resource://gre/modules/AsyncShutdown.jsm:751:20
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:721:5
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:249:17
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1235:42
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+1671442877162	geckodriver	INFO	Listening on 127.0.0.1:62193
+1671442880167	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62194" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\brame\\AppData\\Local\\Temp\\rust_mozprofileFbLkBc"
+1671442880586	Marionette	INFO	Marionette enabled
+1671442880593	Marionette	INFO	Listening on port 62205
+Read port: 62205
+WebDriver BiDi listening on ws://127.0.0.1:62194
+1671442880730	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\brame\\AppData\\Local\\Temp\\rust_mozprofileFbLkBc\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:62194/devtools/browser/008f2633-0cf9-4de8-a048-c40fdc603b85
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/z7cUAtzL1u1d_2AGWF4wFgnTveRSMJLcB1xcawACHJQ.js line 2 > eval line 4645 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+1671443068390	Marionette	INFO	Stopped listening on port 62205
+1671443356292	geckodriver	INFO	Listening on 127.0.0.1:62602
+1671443359357	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62603" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\brame\\AppData\\Local\\Temp\\rust_mozprofile9A3pwR"
+1671443359834	Marionette	INFO	Marionette enabled
+1671443359840	Marionette	INFO	Listening on port 62614
+Read port: 62614
+WebDriver BiDi listening on ws://127.0.0.1:62603
+1671443359980	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\brame\\AppData\\Local\\Temp\\rust_mozprofile9A3pwR\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:62603/devtools/browser/e93cc4c1-31d0-40f2-942c-c52a49e535bd
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://static.qiota.com/assets/getQiota.js, line 3: TypeError: elContent is null
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://static.qiota.com/assets/getQiota.js, line 3: TypeError: divQiota is null
+JavaScript warning: https://pagead2.googlesyndication.com/bg/z7cUAtzL1u1d_2AGWF4wFgnTveRSMJLcB1xcawACHJQ.js line 2 > eval line 62 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/z7cUAtzL1u1d_2AGWF4wFgnTveRSMJLcB1xcawACHJQ.js line 2 > eval line 4943 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/z7cUAtzL1u1d_2AGWF4wFgnTveRSMJLcB1xcawACHJQ.js line 2 > eval line 62 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/z7cUAtzL1u1d_2AGWF4wFgnTveRSMJLcB1xcawACHJQ.js line 2 > eval line 3685 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/z7cUAtzL1u1d_2AGWF4wFgnTveRSMJLcB1xcawACHJQ.js line 2 > eval line 3272 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/z7cUAtzL1u1d_2AGWF4wFgnTveRSMJLcB1xcawACHJQ.js line 2 > eval line 1610 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/z7cUAtzL1u1d_2AGWF4wFgnTveRSMJLcB1xcawACHJQ.js line 2 > eval line 352 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/z7cUAtzL1u1d_2AGWF4wFgnTveRSMJLcB1xcawACHJQ.js line 2 > eval line 5551 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/z7cUAtzL1u1d_2AGWF4wFgnTveRSMJLcB1xcawACHJQ.js line 2 > eval line 2951 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/z7cUAtzL1u1d_2AGWF4wFgnTveRSMJLcB1xcawACHJQ.js line 2 > eval line 1692 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/z7cUAtzL1u1d_2AGWF4wFgnTveRSMJLcB1xcawACHJQ.js line 2 > eval line 1389 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/z7cUAtzL1u1d_2AGWF4wFgnTveRSMJLcB1xcawACHJQ.js line 2 > eval line 3020 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://static.qiota.com/assets/getQiota.js, line 3: TypeError: divQiota is null
+JavaScript warning: https://pagead2.googlesyndication.com/bg/z7cUAtzL1u1d_2AGWF4wFgnTveRSMJLcB1xcawACHJQ.js line 2 > eval line 3186 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://www.lesoir.be/, line 129: SyntaxError: expected expression, got '>'
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://static.qiota.com/assets/getQiota.js, line 3: TypeError: divQiota is null
+JavaScript warning: https://pagead2.googlesyndication.com/bg/z7cUAtzL1u1d_2AGWF4wFgnTveRSMJLcB1xcawACHJQ.js line 2 > eval line 3010 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://www.lesoir.be/, line 20: ReferenceError: leader is not defined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://static.qiota.com/assets/getQiota.js, line 3: TypeError: divQiota is null
+JavaScript warning: https://pagead2.googlesyndication.com/bg/z7cUAtzL1u1d_2AGWF4wFgnTveRSMJLcB1xcawACHJQ.js line 2 > eval line 7371 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://www.lesoir.be/, line 129: SyntaxError: expected expression, got '>'
+JavaScript error: https://static.qiota.com/assets/getQiota.js, line 3: TypeError: divQiota is null
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript warning: https://pagead2.googlesyndication.com/bg/z7cUAtzL1u1d_2AGWF4wFgnTveRSMJLcB1xcawACHJQ.js line 2 > eval line 2945 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 6 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 6 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 6 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://static.qiota.com/assets/getQiota.js, line 3: TypeError: divQiota is null
+JavaScript warning: https://pagead2.googlesyndication.com/bg/z7cUAtzL1u1d_2AGWF4wFgnTveRSMJLcB1xcawACHJQ.js line 2 > eval line 7346 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://static.qiota.com/assets/getQiota.js, line 3: TypeError: divQiota is null
+JavaScript warning: https://pagead2.googlesyndication.com/bg/z7cUAtzL1u1d_2AGWF4wFgnTveRSMJLcB1xcawACHJQ.js line 2 > eval line 6761 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://static.qiota.com/assets/getQiota.js, line 3: TypeError: divQiota is null
+JavaScript warning: https://pagead2.googlesyndication.com/bg/z7cUAtzL1u1d_2AGWF4wFgnTveRSMJLcB1xcawACHJQ.js line 2 > eval line 5907 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://static.qiota.com/assets/getQiota.js, line 3: TypeError: divQiota is null
+JavaScript warning: https://pagead2.googlesyndication.com/bg/z7cUAtzL1u1d_2AGWF4wFgnTveRSMJLcB1xcawACHJQ.js line 2 > eval line 1358 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/z7cUAtzL1u1d_2AGWF4wFgnTveRSMJLcB1xcawACHJQ.js line 2 > eval line 832 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://static.qiota.com/assets/getQiota.js, line 3: TypeError: divQiota is null
+JavaScript warning: https://pagead2.googlesyndication.com/bg/z7cUAtzL1u1d_2AGWF4wFgnTveRSMJLcB1xcawACHJQ.js line 2 > eval line 5270 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://www.lesoir.be/, line 129: SyntaxError: expected expression, got '>'
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://static.qiota.com/assets/getQiota.js, line 3: TypeError: divQiota is null
+JavaScript warning: https://pagead2.googlesyndication.com/bg/z7cUAtzL1u1d_2AGWF4wFgnTveRSMJLcB1xcawACHJQ.js line 2 > eval line 5292 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/z7cUAtzL1u1d_2AGWF4wFgnTveRSMJLcB1xcawACHJQ.js line 2 > eval line 53 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://static.qiota.com/assets/getQiota.js, line 3: TypeError: divQiota is null
+JavaScript warning: https://pagead2.googlesyndication.com/bg/z7cUAtzL1u1d_2AGWF4wFgnTveRSMJLcB1xcawACHJQ.js line 2 > eval line 56 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://static.qiota.com/assets/getQiota.js, line 3: TypeError: divQiota is null
+JavaScript warning: https://pagead2.googlesyndication.com/bg/z7cUAtzL1u1d_2AGWF4wFgnTveRSMJLcB1xcawACHJQ.js line 2 > eval line 6169 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/z7cUAtzL1u1d_2AGWF4wFgnTveRSMJLcB1xcawACHJQ.js line 2 > eval line 5654 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://static.qiota.com/assets/getQiota.js, line 3: TypeError: divQiota is null
+JavaScript warning: https://pagead2.googlesyndication.com/bg/z7cUAtzL1u1d_2AGWF4wFgnTveRSMJLcB1xcawACHJQ.js line 2 > eval line 5964 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/z7cUAtzL1u1d_2AGWF4wFgnTveRSMJLcB1xcawACHJQ.js line 2 > eval line 2211 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://static.qiota.com/assets/getQiota.js, line 3: TypeError: divQiota is null
+JavaScript warning: https://pagead2.googlesyndication.com/bg/z7cUAtzL1u1d_2AGWF4wFgnTveRSMJLcB1xcawACHJQ.js line 2 > eval line 4806 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://www.lesoir.be/, line 129: SyntaxError: expected expression, got '>'
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://static.qiota.com/assets/getQiota.js, line 3: TypeError: divQiota is null
+JavaScript warning: https://pagead2.googlesyndication.com/bg/z7cUAtzL1u1d_2AGWF4wFgnTveRSMJLcB1xcawACHJQ.js line 2 > eval line 2269 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://static.qiota.com/assets/getQiota.js, line 3: TypeError: divQiota is null
+JavaScript warning: https://pagead2.googlesyndication.com/bg/z7cUAtzL1u1d_2AGWF4wFgnTveRSMJLcB1xcawACHJQ.js line 2 > eval line 1231 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/z7cUAtzL1u1d_2AGWF4wFgnTveRSMJLcB1xcawACHJQ.js line 2 > eval line 5924 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://static.qiota.com/assets/getQiota.js, line 3: TypeError: divQiota is null
+JavaScript warning: https://pagead2.googlesyndication.com/bg/z7cUAtzL1u1d_2AGWF4wFgnTveRSMJLcB1xcawACHJQ.js line 2 > eval line 464 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://static.qiota.com/assets/getQiota.js, line 3: TypeError: divQiota is null
+JavaScript warning: https://pagead2.googlesyndication.com/bg/z7cUAtzL1u1d_2AGWF4wFgnTveRSMJLcB1xcawACHJQ.js line 2 > eval line 5286 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://www.lesoir.be/, line 129: SyntaxError: expected expression, got '>'
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 6 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 6 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 6 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://static.qiota.com/assets/getQiota.js, line 3: TypeError: divQiota is null
+JavaScript warning: https://pagead2.googlesyndication.com/bg/z7cUAtzL1u1d_2AGWF4wFgnTveRSMJLcB1xcawACHJQ.js line 2 > eval line 3704 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://static.qiota.com/assets/getQiota.js, line 3: TypeError: divQiota is null
+JavaScript warning: https://pagead2.googlesyndication.com/bg/z7cUAtzL1u1d_2AGWF4wFgnTveRSMJLcB1xcawACHJQ.js line 2 > eval line 2384 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://www.lesoir.be/, line 20: ReferenceError: leader is not defined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://static.qiota.com/assets/getQiota.js, line 3: TypeError: divQiota is null
+JavaScript warning: https://pagead2.googlesyndication.com/bg/z7cUAtzL1u1d_2AGWF4wFgnTveRSMJLcB1xcawACHJQ.js line 2 > eval line 2984 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://static.qiota.com/assets/getQiota.js, line 3: TypeError: divQiota is null
+JavaScript warning: https://pagead2.googlesyndication.com/bg/z7cUAtzL1u1d_2AGWF4wFgnTveRSMJLcB1xcawACHJQ.js line 2 > eval line 6052 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/z7cUAtzL1u1d_2AGWF4wFgnTveRSMJLcB1xcawACHJQ.js line 2 > eval line 2571 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://static.qiota.com/assets/getQiota.js, line 3: TypeError: divQiota is null
+JavaScript warning: https://pagead2.googlesyndication.com/bg/z7cUAtzL1u1d_2AGWF4wFgnTveRSMJLcB1xcawACHJQ.js line 2 > eval line 3955 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/z7cUAtzL1u1d_2AGWF4wFgnTveRSMJLcB1xcawACHJQ.js line 2 > eval line 2756 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://static.qiota.com/assets/getQiota.js, line 3: TypeError: divQiota is null
+JavaScript warning: https://pagead2.googlesyndication.com/bg/z7cUAtzL1u1d_2AGWF4wFgnTveRSMJLcB1xcawACHJQ.js line 2 > eval line 1867 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 6 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 6 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 6 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://static.qiota.com/assets/getQiota.js, line 3: TypeError: divQiota is null
+JavaScript warning: https://pagead2.googlesyndication.com/bg/z7cUAtzL1u1d_2AGWF4wFgnTveRSMJLcB1xcawACHJQ.js line 2 > eval line 6897 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/z7cUAtzL1u1d_2AGWF4wFgnTveRSMJLcB1xcawACHJQ.js line 2 > eval line 953 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://z.moatads.com/mindsharebedcmdisplay214729592422/moatad.js#moatClientLevel1=10164097&moatClientLevel2=29102642&moatClientLevel3=354832902&moatClientLevel4=184070349&moatClientSlicer1=5679120&zMoatG=ct=BE&st=&city=1054&dma=0&zp=4020&bw=4&zMoatENV=j, line 238: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://static.qiota.com/assets/getQiota.js, line 3: TypeError: divQiota is null
+JavaScript warning: https://pagead2.googlesyndication.com/bg/z7cUAtzL1u1d_2AGWF4wFgnTveRSMJLcB1xcawACHJQ.js line 2 > eval line 5225 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://www.lesoir.be/, line 129: SyntaxError: expected expression, got '>'
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://static.qiota.com/assets/getQiota.js, line 3: TypeError: divQiota is null
+JavaScript warning: https://pagead2.googlesyndication.com/bg/z7cUAtzL1u1d_2AGWF4wFgnTveRSMJLcB1xcawACHJQ.js line 2 > eval line 2569 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://static.qiota.com/assets/getQiota.js, line 3: TypeError: divQiota is null
+JavaScript warning: https://pagead2.googlesyndication.com/bg/z7cUAtzL1u1d_2AGWF4wFgnTveRSMJLcB1xcawACHJQ.js line 2 > eval line 522 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://static.qiota.com/assets/getQiota.js, line 3: TypeError: divQiota is null
+JavaScript warning: https://pagead2.googlesyndication.com/bg/z7cUAtzL1u1d_2AGWF4wFgnTveRSMJLcB1xcawACHJQ.js line 2 > eval line 6737 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://static.qiota.com/assets/getQiota.js, line 3: TypeError: divQiota is null
+JavaScript warning: https://pagead2.googlesyndication.com/bg/z7cUAtzL1u1d_2AGWF4wFgnTveRSMJLcB1xcawACHJQ.js line 2 > eval line 1394 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://static.qiota.com/assets/getQiota.js, line 3: TypeError: divQiota is null
+JavaScript warning: https://pagead2.googlesyndication.com/bg/z7cUAtzL1u1d_2AGWF4wFgnTveRSMJLcB1xcawACHJQ.js line 2 > eval line 1557 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://static.qiota.com/assets/getQiota.js, line 3: TypeError: divQiota is null
+JavaScript warning: https://pagead2.googlesyndication.com/bg/z7cUAtzL1u1d_2AGWF4wFgnTveRSMJLcB1xcawACHJQ.js line 2 > eval line 2755 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 6 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 6 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 6 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://static.qiota.com/assets/getQiota.js, line 3: TypeError: divQiota is null
+JavaScript warning: https://pagead2.googlesyndication.com/bg/z7cUAtzL1u1d_2AGWF4wFgnTveRSMJLcB1xcawACHJQ.js line 2 > eval line 1993 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://static.qiota.com/assets/getQiota.js, line 3: TypeError: divQiota is null
+JavaScript warning: https://pagead2.googlesyndication.com/bg/z7cUAtzL1u1d_2AGWF4wFgnTveRSMJLcB1xcawACHJQ.js line 2 > eval line 7166 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lJavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1671554621441	Marionette	INFO	Stopped listening on port 60451
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 560: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 560: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 560: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 560: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 560: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 560: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 560: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 560: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 560: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 560: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 560: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 560: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 560: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 560: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://static.qiota.com/assets/getQiota.js, line 3: TypeError: divQiota is null
+JavaScript warning: https://pagead2.googlesyndication.com/bg/z7cUAtzL1u1d_2AGWF4wFgnTveRSMJLcB1xcawACHJQ.js line 2 > eval line 1313 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://static.qiota.com/assets/getQiota.js, line 3: TypeError: divQiota is null
+JavaScript warning: https://pagead2.googlesyndication.com/bg/z7cUAtzL1u1d_2AGWF4wFgnTveRSMJLcB1xcawACHJQ.js line 2 > eval line 508 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://www.lesoir.be/, line 20: ReferenceError: leader is not defined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://static.qiota.com/assets/getQiota.js, line 3: TypeError: divQiota is null
+JavaScript warning: https://pagead2.googlesyndication.com/bg/z7cUAtzL1u1d_2AGWF4wFgnTveRSMJLcB1xcawACHJQ.js line 2 > eval line 1782 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/z7cUAtzL1u1d_2AGWF4wFgnTveRSMJLcB1xcawACHJQ.js line 2 > eval line 2578 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://static.qiota.com/assets/getQiota.js, line 3: TypeError: divQiota is null
+JavaScript warning: https://pagead2.googlesyndication.com/bg/z7cUAtzL1u1d_2AGWF4wFgnTveRSMJLcB1xcawACHJQ.js line 2 > eval line 4591 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://z.moatads.com/mindsharebedcmdisplay214729592422/moatad.js#moatClientLevel1=10164097&moatClientLevel2=29102642&moatClientLevel3=354832902&moatClientLevel4=184070349&moatClientSlicer1=5679120&zMoatG=ct=BE&st=&city=1054&dma=0&zp=4020&bw=4&zMoatENV=j, line 238: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/z7cUAtzL1u1d_2AGWF4wFgnTveRSMJLcB1xcawACHJQ.js line 2 > eval line 10 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://static.qiota.com/assets/getQiota.js, line 3: TypeError: divQiota is null
+JavaScript warning: https://pagead2.googlesyndication.com/bg/z7cUAtzL1u1d_2AGWF4wFgnTveRSMJLcB1xcawACHJQ.js line 2 > eval line 3266 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://static.qiota.com/assets/getQiota.js, line 3: TypeError: divQiota is null
+JavaScript warning: https://pagead2.googlesyndication.com/bg/z7cUAtzL1u1d_2AGWF4wFgnTveRSMJLcB1xcawACHJQ.js line 2 > eval line 3782 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://static.qiota.com/assets/getQiota.js, line 3: TypeError: divQiota is null
+JavaScript warning: https://pagead2.googlesyndication.com/bg/z7cUAtzL1u1d_2AGWF4wFgnTveRSMJLcB1xcawACHJQ.js line 2 > eval line 3787 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://static.qiota.com/assets/getQiota.js, line 3: TypeError: divQiota is null
+JavaScript warning: https://pagead2.googlesyndication.com/bg/z7cUAtzL1u1d_2AGWF4wFgnTveRSMJLcB1xcawACHJQ.js line 2 > eval line 5911 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/z7cUAtzL1u1d_2AGWF4wFgnTveRSMJLcB1xcawACHJQ.js line 2 > eval line 4077 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://static.qiota.com/assets/getQiota.js, line 3: TypeError: divQiota is null
+JavaScript warning: https://pagead2.googlesyndication.com/bg/z7cUAtzL1u1d_2AGWF4wFgnTveRSMJLcB1xcawACHJQ.js line 2 > eval line 6376 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/z7cUAtzL1u1d_2AGWF4wFgnTveRSMJLcB1xcawACHJQ.js line 2 > eval line 3864 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://static.qiota.com/assets/getQiota.js, line 3: TypeError: divQiota is null
+JavaScript warning: https://pagead2.googlesyndication.com/bg/z7cUAtzL1u1d_2AGWF4wFgnTveRSMJLcB1xcawACHJQ.js line 2 > eval line 2302 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 6 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 6 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 6 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://static.qiota.com/assets/getQiota.js, line 3: TypeError: divQiota is null
+JavaScript warning: https://pagead2.googlesyndication.com/bg/z7cUAtzL1u1d_2AGWF4wFgnTveRSMJLcB1xcawACHJQ.js line 2 > eval line 6107 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://static.qiota.com/assets/getQiota.js, line 3: TypeError: divQiota is null
+JavaScript warning: https://pagead2.googlesyndication.com/bg/z7cUAtzL1u1d_2AGWF4wFgnTveRSMJLcB1xcawACHJQ.js line 2 > eval line 4100 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://static.qiota.com/assets/getQiota.js, line 3: TypeError: divQiota is null
+JavaScript warning: https://pagead2.googlesyndication.com/bg/z7cUAtzL1u1d_2AGWF4wFgnTveRSMJLcB1xcawACHJQ.js line 2 > eval line 3878 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://static.qiota.com/assets/getQiota.js, line 3: TypeError: divQiota is null
+JavaScript warning: https://pagead2.googlesyndication.com/bg/z7cUAtzL1u1d_2AGWF4wFgnTveRSMJLcB1xcawACHJQ.js line 2 > eval line 7516 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/z7cUAtzL1u1d_2AGWF4wFgnTveRSMJLcB1xcawACHJQ.js line 2 > eval line 1139 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://static.qiota.com/assets/getQiota.js, line 3: TypeError: divQiota is null
+JavaScript warning: https://pagead2.googlesyndication.com/bg/z7cUAtzL1u1d_2AGWF4wFgnTveRSMJLcB1xcawACHJQ.js line 2 > eval line 6278 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/z7cUAtzL1u1d_2AGWF4wFgnTveRSMJLcB1xcawACHJQ.js line 2 > eval line 2387 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1671554621269	Marionette	INFO	Stopped listening on port 62614
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+SjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/z7cUAtzL1u1d_2AGWF4wFgnTveRSMJLcB1xcawACHJQ.js line 2 > eval line 2042 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 568"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:568:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:126:18
+Line: 568, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 568: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+1671446834649	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+1671446859792	Marionette	INFO	Stopped listening on port 58969
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1671447273097	geckodriver	INFO	Listening on 127.0.0.1:60851
+1671447276124	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60852" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\brame\\AppData\\Local\\Temp\\rust_mozprofile4CT4SN"
+1671447276687	Marionette	INFO	Marionette enabled
+1671447276697	Marionette	INFO	Listening on port 60863
+Read port: 60863
+WebDriver BiDi listening on ws://127.0.0.1:60852
+1671447276937	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\brame\\AppData\\Local\\Temp\\rust_mozprofile4CT4SN\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:60852/devtools/browser/60d2a3dd-a836-454c-a1ca-032bbe9f77bb
+1671447279876	Marionette	INFO	Stopped listening on port 60863
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+sendPing@resource://gre/modules/EventPing.jsm:51:30
+_submitPing@resource://gre/modules/EventPing.jsm:229:12
+shutdown@resource://gre/modules/EventPing.jsm:112:10
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:940:31
+shutdown/<@resource://gre/modules/TelemetryControllerParent.jsm:1010:24
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:982:34
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:1014:36
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:1687:7
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:369:30
+_getState@resource://gre/modules/TelemetryControllerParent.jsm:1058:38
+setupTelemetry/<@resource://gre/modules/TelemetryControllerParent.jsm:917:18
+safeGetState@resource://gre/modules/AsyncShutdown.jsm:242:17
+Barrier/addBlocker/promise<@resource://gre/modules/AsyncShutdown.jsm:751:20
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:721:5
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:249:17
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1235:42
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+1671447285546	geckodriver	INFO	Listening on 127.0.0.1:60888
+1671447288605	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60889" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\brame\\AppData\\Local\\Temp\\rust_mozprofilekRzk2P"
+1671447289372	Marionette	INFO	Marionette enabled
+1671447289382	Marionette	INFO	Listening on port 60903
+Read port: 60903
+WebDriver BiDi listening on ws://127.0.0.1:60889
+1671447289626	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\brame\\AppData\\Local\\Temp\\rust_mozprofilekRzk2P\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:60889/devtools/browser/96dc3159-4c15-4c5c-9e17-aa34c5e1a29b
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/z7cUAtzL1u1d_2AGWF4wFgnTveRSMJLcB1xcawACHJQ.js line 2 > eval line 159 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1671447304214	Marionette	INFO	Stopped listening on port 60903
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+sendPing@resource://gre/modules/EventPing.jsm:51:30
+_submitPing@resource://gre/modules/EventPing.jsm:229:12
+shutdown@resource://gre/modules/EventPing.jsm:112:10
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:940:31
+shutdown/<@resource://gre/modules/TelemetryControllerParent.jsm:1010:24
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:982:34
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:1014:36
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:1687:7
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:369:30
+_getState@resource://gre/modules/TelemetryControllerParent.jsm:1058:38
+setupTelemetry/<@resource://gre/modules/TelemetryControllerParent.jsm:917:18
+safeGetState@resource://gre/modules/AsyncShutdown.jsm:242:17
+Barrier/addBlocker/promise<@resource://gre/modules/AsyncShutdown.jsm:751:20
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:721:5
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:249:17
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1235:42
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+1671447308845	geckodriver	INFO	Listening on 127.0.0.1:60988
+1671447311908	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60989" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\brame\\AppData\\Local\\Temp\\rust_mozprofileEugXCp"
+1671447312410	Marionette	INFO	Marionette enabled
+1671447312419	Marionette	INFO	Listening on port 61001
+Read port: 61001
+WebDriver BiDi listening on ws://127.0.0.1:60989
+1671447312620	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\brame\\AppData\\Local\\Temp\\rust_mozprofileEugXCp\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:60989/devtools/browser/8d38a552-5d2f-432d-a33a-09ff95d4958d
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://static.qiota.com/assets/getQiota.js, line 3: TypeError: elContent is null
+JavaScript error: https://static.qiota.com/assets/getQiota.js, line 3: TypeError: elContent is null
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://static.qiota.com/assets/getQiota.js, line 3: TypeError: divQiota is null
+JavaScript warning: https://pagead2.googlesyndication.com/bg/z7cUAtzL1u1d_2AGWF4wFgnTveRSMJLcB1xcawACHJQ.js line 2 > eval line 6870 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://www.lesoir.be/, line 129: SyntaxError: expected expression, got '>'
+JavaScript error: resource://devtools/server/actors/utils/sources-manager.js, line 432: TypeError: channel is null
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 560: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 560: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 560: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 560: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 560: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 560: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 560: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 560: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 560: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 560: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 560: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 560: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 560: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 560: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 560: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1671448020921	Marionette	INFO	Stopped listening on port 61001
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:982:34
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:1014:36
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:1687:7
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:369:30
+_getState@resource://gre/modules/TelemetryControllerParent.jsm:1058:38
+setupTelemetry/<@resource://gre/modules/TelemetryControllerParent.jsm:917:18
+safeGetState@resource://gre/modules/AsyncShutdown.jsm:242:17
+Barrier/addBlocker/promise<@resource://gre/modules/AsyncShutdown.jsm:751:20
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:721:5
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:249:17
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1235:42
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+1671447491046	geckodriver	INFO	Listening on 127.0.0.1:61244
+1671447494077	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61245" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\brame\\AppData\\Local\\Temp\\rust_mozprofileIz9CdU"
+1671447494541	Marionette	INFO	Marionette enabled
+1671447494548	Marionette	INFO	Listening on port 61256
+Read port: 61256
+WebDriver BiDi listening on ws://127.0.0.1:61245
+1671447494707	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\brame\\AppData\\Local\\Temp\\rust_mozprofileIz9CdU\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:61245/devtools/browser/3c45a26d-20ee-4355-8cbc-2550ee432524
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/z7cUAtzL1u1d_2AGWF4wFgnTveRSMJLcB1xcawACHJQ.js line 2 > eval line 4072 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+1671447523901	Marionette	INFO	Stopped listening on port 61256
+[Parent 90508, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:746
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+sendPing@resource://gre/modules/EventPing.jsm:51:30
+_submitPing@resource://gre/modules/EventPing.jsm:229:12
+shutdown@resource://gre/modules/EventPing.jsm:112:10
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:940:31
+shutdown/<@resource://gre/modules/TelemetryControllerParent.jsm:1010:24
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:982:34
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:1014:36
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:1687:7
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:369:30
+_getState@resource://gre/modules/TelemetryControllerParent.jsm:1058:38
+setupTelemetry/<@resource://gre/modules/TelemetryControllerParent.jsm:917:18
+safeGetState@resource://gre/modules/AsyncShutdown.jsm:242:17
+Barrier/addBlocker/promise<@resource://gre/modules/AsyncShutdown.jsm:751:20
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:721:5
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:249:17
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1235:42
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+1671447545556	geckodriver	INFO	Listening on 127.0.0.1:61414
+1671447548588	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61415" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\brame\\AppData\\Local\\Temp\\rust_mozprofilezOrxjV"
+1671447549085	Marionette	INFO	Marionette enabled
+1671447549094	Marionette	INFO	Listening on port 61426
+Read port: 61426
+WebDriver BiDi listening on ws://127.0.0.1:61415
+1671447549261	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\brame\\AppData\\Local\\Temp\\rust_mozprofilezOrxjV\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:61415/devtools/browser/69c1da3f-ab99-437e-a178-cccbd1c2b740
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://static.qiota.com/assets/getQiota.js, line 3: TypeError: elContent is null
+1671447554607	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://static.qiota.com/assets/getQiota.js, line 3: TypeError: elContent is null
+1671448019705	Marionette	INFO	Stopped listening on port 61426
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+tQiota.js, line 3: TypeError: elContent is null
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+1671447752428	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1671448018503	Marionette	INFO	Stopped listening on port 61642
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+e" "--remote-debugging-port" "61889" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\brame\\AppData\\Local\\Temp\\rust_mozprofileAWjk26"
+1671447918977	Marionette	INFO	Marionette enabled
+1671447918988	Marionette	INFO	Listening on port 61902
+Read port: 61902
+WebDriver BiDi listening on ws://127.0.0.1:61889
+1671447919209	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\brame\\AppData\\Local\\Temp\\rust_mozprofileAWjk26\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:61889/devtools/browser/31f8019f-75ea-4ba7-856f-d8e6aa6b9030
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://static.qiota.com/assets/getQiota.js, line 3: TypeError: elContent is null
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://static.qiota.com/assets/getQiota.js, line 3: TypeError: divQiota is null
+JavaScript warning: https://pagead2.googlesyndication.com/bg/z7cUAtzL1u1d_2AGWF4wFgnTveRSMJLcB1xcawACHJQ.js line 2 > eval line 1867 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/z7cUAtzL1u1d_2AGWF4wFgnTveRSMJLcB1xcawACHJQ.js line 2 > eval line 5693 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1671448017577	Marionette	INFO	Stopped listening on port 61902
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+rofile" "C:\\Users\\brame\\AppData\\Local\\Temp\\rust_mozprofileiPQYEf"
+1671447978825	Marionette	INFO	Marionette enabled
+1671447978833	Marionette	INFO	Listening on port 62141
+Read port: 62141
+WebDriver BiDi listening on ws://127.0.0.1:62103
+1671447979012	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\brame\\AppData\\Local\\Temp\\rust_mozprofileiPQYEf\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:62103/devtools/browser/f2204c71-984e-4ddc-b0f8-77f81707ba93
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-T4L3LW, line 37: uncaught exception: [object Object]
+JavaScript error: https://www.lesoir.be/ line 44 > injectedScript, line 1: ReferenceError: pa is not defined
+JavaScript error: https://static.qiota.com/assets/getQiota.js, line 3: TypeError: elContent is null
+1671448016189	Marionette	INFO	Stopped listening on port 62141
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+sendPing@resource://gre/modules/EventPing.jsm:51:30
+_submitPing@resource://gre/modules/EventPing.jsm:229:12
+shutdown@resource://gre/modules/EventPing.jsm:112:10
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:940:31
+shutdown/<@resource://gre/modules/TelemetryControllerParent.jsm:1010:24
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:982:34
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:1014:36
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:1687:7
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:369:30
+_getState@resource://gre/modules/TelemetryControllerParent.jsm:1058:38
+setupTelemetry/<@resource://gre/modules/TelemetryControllerParent.jsm:917:18
+safeGetState@resource://gre/modules/AsyncShutdown.jsm:242:17
+Barrier/addBlocker/promise<@resource://gre/modules/AsyncShutdown.jsm:751:20
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:721:5
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:249:17
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1235:42
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+urce://gre/modules/TelemetryStorage.jsm:19:28
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:721:5
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:249:17
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1235:42
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+1671550384020	geckodriver	INFO	Listening on 127.0.0.1:64410
+1671550387099	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64411" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\brame\\AppData\\Local\\Temp\\rust_mozprofileyZIWpQ"
+1671550387695	Marionette	INFO	Marionette enabled
+1671550387703	Marionette	INFO	Listening on port 64423
+Read port: 64423
+WebDriver BiDi listening on ws://127.0.0.1:64411
+1671550387859	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\brame\\AppData\\Local\\Temp\\rust_mozprofileyZIWpQ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:64411/devtools/browser/1d7e763f-7106-45b6-9bf8-2e565ac5aa16
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/z7cUAtzL1u1d_2AGWF4wFgnTveRSMJLcB1xcawACHJQ.js line 2 > eval line 2925 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+1671554621054	Marionette	INFO	Stopped listening on port 64423
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: https://static.chartbeat.com/js/chartbeat.js, line 31: NS_ERROR_ABORT: 
+ile" "C:\\Users\\brame\\AppData\\Local\\Temp\\rust_mozprofileLkwTcb"
+1671550409147	Marionette	INFO	Marionette enabled
+1671550409152	Marionette	INFO	Listening on port 64518
+Read port: 64518
+WebDriver BiDi listening on ws://127.0.0.1:64501
+1671550409295	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\brame\\AppData\\Local\\Temp\\rust_mozprofileLkwTcb\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:64501/devtools/browser/8f645b52-f224-47c6-936e-f0c67570fc72
+JavaScript error: https://media.ethicalads.io/media/client/v1.4.0/ethicalads.min.js, line 1: Error: No ad placements found.
+JavaScript error: resource:///actors/FormValidationChild.sys.mjs, line 178: TypeError: this._element is null
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.python.org."
+1671550414381	Marionette	INFO	Stopped listening on port 64518
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+sendPing@resource://gre/modules/EventPing.jsm:51:30
+_submitPing@resource://gre/modules/EventPing.jsm:229:12
+shutdown@resource://gre/modules/EventPing.jsm:112:10
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:940:31
+shutdown/<@resource://gre/modules/TelemetryControllerParent.jsm:1010:24
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:982:34
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:1014:36
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:1687:7
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:369:30
+_getState@resource://gre/modules/TelemetryControllerParent.jsm:1058:38
+setupTelemetry/<@resource://gre/modules/TelemetryControllerParent.jsm:917:18
+safeGetState@resource://gre/modules/AsyncShutdown.jsm:242:17
+Barrier/addBlocker/promise<@resource://gre/modules/AsyncShutdown.jsm:751:20
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:721:5
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:249:17
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1235:42
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+1671550433351	geckodriver	INFO	Listening on 127.0.0.1:64565
+1671550436399	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64566" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\brame\\AppData\\Local\\Temp\\rust_mozprofilemE7fIi"
+1671550436762	Marionette	INFO	Marionette enabled
+1671550436768	Marionette	INFO	Listening on port 64579
+Read port: 64579
+WebDriver BiDi listening on ws://127.0.0.1:64566
+1671550436893	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\brame\\AppData\\Local\\Temp\\rust_mozprofilemE7fIi\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:64566/devtools/browser/2f6a2a65-d403-4703-a4f5-c2beee7851d0
+JavaScript error: https://media.ethicalads.io/media/client/v1.4.0/ethicalads.min.js, line 1: Error: No ad placements found.
+JavaScript error: resource:///actors/FormValidationChild.sys.mjs, line 178: TypeError: this._element is null
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.python.org."
+1671550439625	Marionette	INFO	Stopped listening on port 64579
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+sendPing@resource://gre/modules/EventPing.jsm:51:30
+_submitPing@resource://gre/modules/EventPing.jsm:229:12
+shutdown@resource://gre/modules/EventPing.jsm:112:10
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:940:31
+shutdown/<@resource://gre/modules/TelemetryControllerParent.jsm:1010:24
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:982:34
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:1014:36
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:1687:7
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:369:30
+_getState@resource://gre/modules/TelemetryControllerParent.jsm:1058:38
+setupTelemetry/<@resource://gre/modules/TelemetryControllerParent.jsm:917:18
+safeGetState@resource://gre/modules/AsyncShutdown.jsm:242:17
+Barrier/addBlocker/promise<@resource://gre/modules/AsyncShutdown.jsm:751:20
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:721:5
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:249:17
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1235:42
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
